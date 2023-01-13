@@ -1,5 +1,12 @@
-# Car-License-Plate-Detection
-This is capstone project at Deloitte AI Academy, taught by Flatiron School
+# Car License Plate Detection System in Parking Lot
+## Goal: how to recoginize  quickly the vehicles license plate to reduce operating expenses and keep clients satisfied.
 
-We know that the license plate is very important because it will  help us to identify our car from the crowd and will make it unique. That is why License Plate Recognition  is crucial for management in  many areas. For example, with license plate recognition software, you can better enforce parking lot rules all while reducing operating expenses and keeping your clients satisfied. Whether you manage a public parking lot or a parking lot for a school, healthcare facility, or workplace. In addition to ,traffic can flow smoothly without having to stop or it is used to identify the cars that are breaking the traffic rules, as the scanner will capture their license plate number automatically with a license plate recognition system. Improved traffic flow helps reduce potential accidents.However, many of the current solutions are still not robust in real-world situations, commonly depending on many constraints. In the following project, we will understand how to recognize License number plates using deep learning. For that, we use the dataset from  [Kaggle](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection) to collect the vehicle images where the number plate appears.
-The results have shown that the model is able to perform with high accuracy of nearly 70-85 percent in recognizing license plates.
+In the project, we use the dataset from  [Kaggle](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection) to collect the vehicle images where the number plate appears.This dataset contains 433 images with bounding box annotations of the car license plates within the image.
+
+We use pre-train VGG16 and RESNET50 on the license plate dataset. This means reusing the weights in one or more layers from the pre-trained network models in a new model and  keeping the weights fixed. We also add some more news layer and  fine tuning them.
+
+### Working directory structure
+1. Final Notebook
+2. Slide present
+3. Images
+
